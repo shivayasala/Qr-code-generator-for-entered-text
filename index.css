@@ -18,9 +18,34 @@ input{
 }
 body{
     margin:5px;
-    padding-left: 600px;
+    /* padding-left: 600px; */
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 li{
     margin-left:60px ;
+}
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 14px;
+        background-color: #e0e0e0;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* Styles for very small screens (e.g., smartphones) */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+        background-color: #d0d0d0;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
 }
